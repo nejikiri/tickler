@@ -21,4 +21,4 @@ class Tickler(commands.Bot):
                 await self.load_extension(f'cogs.{f[:-3]}')
 
 client = Tickler()
-client.run('MTA0ODQyNjgwNjgxNjAxNDM0Nw.GYTaJw.CZy_JtlFzKEKT07Gb_TlJQjf7a6ex7OL-_sJUM')
+client.run('')
