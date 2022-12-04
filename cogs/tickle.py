@@ -8,7 +8,7 @@ class Tickle(commands.Cog):
         self.bot = bot
         
     @commands.command(name='tickle')
-    @commands.has_role('937053348308340826')
+    @commands.has_role('new role')
     async def tickle(self, ctx, duration: int):
         for x in range(0, duration):
             sleep(1)
