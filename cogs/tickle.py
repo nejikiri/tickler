@@ -9,7 +9,7 @@ class Tickle(commands.Cog):
     def __init__(self, bot) -> None:
         self.bot = bot
         
-    @commands.hybrid_command(name='tickle' aliases=["t"])
+    @commands.hybrid_command(name='tickle', aliases=["t"])
     @commands.has_role('new role')
     async def tickle(self, ctx, duration: int):
         for x in range(0, duration):
